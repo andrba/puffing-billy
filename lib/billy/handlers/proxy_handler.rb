@@ -52,7 +52,7 @@ module Billy
       headers.delete('accept-encoding')
 
       req_opts = {
-        redirects: 0,
+        redirects: 2,
         keepalive: false,
         head: headers,
         ssl: { verify: false }
